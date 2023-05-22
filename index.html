@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prathamesh Laddhad</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=PT+Serif&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'PT Serif', serif;
+            font-family: 'Baloo Bhai 2', cursive;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        nav {
+            background-color: rgb(12, 12, 12);
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+        .li {
+            color: white;
+            padding: 100px 70px 0 100px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .li:hover {
+            color: #00fffff8;
+            padding: 100px 70px 0 100px;
+            text-decoration: none;
+            font-size: 20px;
+
+
+        }
+
+        .search {
+            background-color: #fffffff8;
+            height: 30px;
+            width: 300px;
+            /* align-items: right; */
+            border: 3px solid#00fffff8;
+            border-radius: 6px;
+            /* font-size: 12px; */
+
+        }
+
+        .searchw {
+            margin: 20px;
+            padding: 3px 34px 32px 23px;
+            color: #050101f8;
+            height: 0px;
+            width: 100px;
+            border: 1px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+        }
+
+        .searchw:hover {
+            margin: 20px;
+            padding: 3px 34px 32px 23px;
+            color: #00fffff8;
+            height: 0px;
+            width: 100px;
+            border: 1px solid #00fffff8;
+            border-radius: 6px;
+            font-size: 20px;
+        }
+
+        .img {
+            align-items: center;
+            padding: 50px 625px;
+            width: 10px;
+            height: 1%;
+        }
+
+        img {
+            height: 250px;
+        }
+
+        .main {
+            background: #f4b41a;
+            height: 5000px;
+        }
+
+        .word {
+            font-size: 50px;
+            color: red;
+            width: 700px;
+            height: 100px;
+            margin-left: 490px;
+            margin-top: 160px;
+            -webkit-text-stroke: 0.3vh rgb(255, 0, 0);
+        }
+
+        .container1 {
+            width: 100%;
+            height: 550px;
+            background-color: #143d59;
+        }
+
+        .container12 {
+            width: 101%;
+            height: 100px;
+            background-color: #143d59;
+            margin: -20px;
+        }
+
+        .para {
+            padding: 1px 300px 400px 300px;
+            display: flex;
+            font-size: 20px;
+            color: #143d59;
+            font-weight: bold;
+        }
+
+        .copy {
+            display: flex;
+            align-items: center;
+            padding: 10px 650px;
+        }
+
+        .imgc {
+            height: 450px;
+            border: 10px solid white;
+            margin: -863px 22px 0px 22px;
+            border-radius: 6px;
+        }
+
+        .H13 {
+            padding-left: 700px;
+            display: inline-block;
+            font-size: 40px;
+            color: white;
+            /* font-decoration:un */
+        }
+
+        .parac {
+            padding-left: 650px;
+            width: 800px;
+            font-size: 20px;
+            color: lightcyan;
+        }
+
+        .script {
+            margin: 0 100px 0 100px;
+            width: 1200px;
+            height: 500px;
+            position: relative;
+            top: 21px;
+        }
+
+        .script2 {
+            margin: 0 100px 0 100px;
+            width: 1200px;
+            height: 500px;
+            position: relative;
+            top: 21px;
+        }
+
+        .script3 {
+            margin: 0 100px 0 100px;
+            width: 1200px;
+            height: 250px;
+            position: relative;
+            top: 21px;
+        }
+        .script4 {
+            margin: 0 100px 0 100px;
+            width: 1200px;
+            height: 500px;
+            position: relative;
+            top: 21px;
+        }
+
+
+        .coolpro {
+            margin: 100px 0 0 200px;
+            justify-content: center;
+            align-items: center;
+            font-size: 35px;
+            color: rgb(249, 1, 1);
+
+        }
+
+        .main2 {
+            height: 731px;
+            width: 1400px;
+            border-radius: 5px;
+            background-color: #143d59;
+            margin-left: 50px;
+            margin-top: 100px;
+
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main3 {
+            height: 731px;
+            width: 1400px;
+            border-radius: 5px;
+            background-color: #143d59;
+            margin-left: 50px;
+            margin-top: 100px;
+
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main4 {
+            height: 500px;
+            width: 1400px;
+            border-radius: 5px;
+            background-color: #143d59;
+            margin-left: 50px;
+            margin-top: 100px;
+
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .main5 {
+            height: 731px;
+            width: 1400px;
+            border-radius: 5px;
+            background-color: #143d59;
+            margin-left: 50px;
+            margin-top: 100px;
+
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Mycoolproject_MAINHEADING {
+            padding: 1px 300px 0px 200px;
+            display: flex;
+            font-size: 20px;
+            color: #143d59;
+            font-weight: bold;
+
+        }
+
+        .Project1_Heading {
+            padding-left: 200px;
+            margin-top: 20px;
+            display: inline-block;
+            font-size: 60px;
+            color: white;
+        }
+
+        .Project1_Content {
+            padding-left: 300px;
+            width: 800px;
+            font-size: 20px;
+            color: lightcyan;
+        }
+
+        .Project2_Heading {
+            padding-left: 200px;
+            margin-top: 20px;
+            display: inline-block;
+            font-size: 60px;
+            color: white;
+        }
+
+        .Project2_Content {
+            padding-left: 300px;
+            width: 800px;
+            font-size: 20px;
+            color: lightcyan;
+        }
+
+        .Project3_Heading {
+            padding-left: 200px;
+            margin-top: 20px;
+            display: inline-block;
+            font-size: 60px;
+            color: white;
+        }
+
+        .Project3_Content {
+            padding-left: 300px;
+            width: 800px;
+            font-size: 20px;
+            color: lightcyan;
+        }
+        .Project4_Heading {
+            padding-left: 600px;
+            margin-top: 20px;
+            display: inline-block;
+            font-size: 60px;
+            color: white;
+        }
+
+        .Project4_Content {
+            padding-left: 300px;
+            width: 800px;
+            font-size: 20px;
+            color: lightcyan;
+        }
+ 
+        .copy {
+            background-color: #684c0a;
+            color: white;
+
+        }
+
+        .contactform {
+            width: 100%;
+            height: 80vh;
+            background-color: #f1c867;
+        }
+
+        .Contactforminfo1 {
+            width: 60%;
+            height: 50px;
+            margin: 50px 20% 10px 20%;
+            border: 2px solid black;
+            border-radius: 7px;
+            font-size: 20px;
+
+        }
+
+        .Contactforminfo2 {
+            width: 60%;
+            height: 50px;
+            margin: 10px 20% 10px 20%;
+            border: 2px solid black;
+            border-radius: 7px;
+            font-size: 20px;
+
+        }
+
+        .Contactforminfo3 {
+            width: 60%;
+            height: 50px;
+            margin: 10px 20% 10px 20%;
+            border: 2px solid black;
+            border-radius: 7px;
+            font-size: 20px;
+
+        }
+
+        .Contactforminfo4 {
+            font-size: 20px;
+            width: 60%;
+            height: 100px;
+            margin: 10px 20% 10px 20%;
+            border: 2px solid black;
+            border-radius: 7px;
+
+        }
+
+        .HEADINGFORM {
+            font-size: 60px;
+            padding-left: 550px;
+            padding-top: 20px;
+            color: #ff0000;
+
+        }
+
+        .btn {
+            height: 60px;
+            width: 400px;
+            background-color: #0020ef;
+            border-radius: 7px;
+            margin: 10px 550px 10px 550px;
+            color: white;
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="nav">
+            <a class="li" href="#Home" target="_blank">Home</a>
+            <a class="li" href="#information" target="_blank">Information</a>
+            <a class="li" href="#About" target="_blank">About</a>
+            <a class="li" href="#Contact" target="_blank">Contact </a>
+        </ul>
+        <form action="https://www.google.com/search" method="get" class="search-bar">
+            <input class="search" type="text" placeholder="Search..." name="q">
+            <button type="submit" class="searchw">Search</button>
+        </form>
+    </nav>
+    <main class="main">
+        <div class="img">
+
+            <img src="pic.png" alt="My photo">
+        </div>
+        <span><b>
+                <div class="word">I am <span class="auto-type"></span></div>
+            </b>
+            <span>
+                <p>
+                    <container class="para">I am a student in 9th standard but I want to become a software engineer
+                        specifically a web delevloper ,till now I have learnt HTML , Python and some more coding
+                        languages .I like to code because when I code, I think that I am making something new ,something
+                        innovative which would be in front of the whole world and that moment when someone else
+                        appriciates you,that moment is wonderful. </container>
+                </p>
+            </span>
+
+            <div class="inline-block">
+                <div class="container1 " id="information">
+                    <br>
+
+                    <H1 class="H13"><u>Why to Choose Career as a Programmer?</u></H1>
+                    <div class="parac">
+                        <p> <br><br>Computer programming is a good career for those who enjoy learning new coding
+                            languages and want to work in the technology industry. You can use problem-solving and
+                            critical thinking abilities to solve any complex technical challenges, which may make the
+                            job feel rewarding and fulfilling.Programmers use coding languages to write operational
+                            instructions for the computer system to follow.They typically work alongside software
+                            engineers or developers, who build design specifications for these programs.There are some
+                            disadvantages also like increase in screen time,but in future most of things aorund us would
+                            be like robots who are programmed by someone.The computer programmer uses these
+                            specifications to program the software accordingly. If any issues occur on the computer
+                            systems, programmers use coding languages to resolve them by rewriting, debugging and
+                            testing the software systems to help these programs operate more efficiently.Also there are
+                            many different programming languages like C ,C++ ,Python ,Java , JavaScript, HTML ,PHP ,Ruby
+                            ,SQL ,Swift ,Perl ,Matlab ,Typescript and many more.Also presently programmers are been paid
+                            with best salaries.Employers are typically impressed with computer programmers who have an
+                            advanced skill set to help them contribute valuable work to the role. You can develop new
+                            skills or build upon your current ones by taking additional online courses, attending
+                            seminars or receiving hands-on training from computer programming professionals.Another way
+                            to enhance your skill set and to stand out to hiring managers is to earn computer
+                            programming certifications. The type of certification to earn typically varies according to
+                            the industry or specialty you're pursuing. Many computer programming certifications require
+                            you to enroll in a course and pass an exam.So this are some reason why I preffered my career
+                            as programmer.</p>
+
+
+                    </div>
+                </div>
+
+                <img class="imgc" src="360_F_178650212_oePgGaIhKUhz0cIg2bLBGsFsdbWs5Xwj.jpg" alt="Coder">
+
+            </div>
+            <div class="container12"></div>
+
+
+            <div class="coolpro" id="About">
+                <H1><i><u>My Some of the Most Cool Projects</u></i></H1>
+            </div>
+            <br>
+            <div class="Mycoolproject_MAINHEADING">
+                I have made some projects in programming language "Python",Some of them are:
+            </div>
+            <div class="main2">
+                <div class="Project1_Heading">
+                    Conversion between types of Currency</div>
+                <div class="Project1_Content">
+                    <br>
+                    This Project is made in Python, it functions in converting standard currency units into another
+                    currency.The code is:
+                </div>
+                <div>
+                    <script type="module"
+                        src="https://unpkg.com/@deckdeckgo/highlight-code@latest/dist/deckdeckgo-highlight-code/deckdeckgo-highlight-code.esm.js"></script>
+                    <deckgo-highlight-code language="python" class="script">
+                        <code slot="code">
+             '''This program is made by Prathamesh Laddhad , In this program you can convert rupees '''
+             print("----------------------------------------")
+             while True:
+                     z = float(input("Pls enter the amount : "))
+                     
+                     y = str(input("In which money you want to convert (USD/Pound/SGD):"))
+             
+                     if  y == 'USD':
+                         zc =z/79.34
+                         print("The conversion of " + str(z) + " rupees to USD is " + str(zc) + " $")
+                         print("---------------------------------")
+             
+                     elif  y == 'Pound':
+                         ac =z/96.52
+                         print("The conversion of " + str(z) + " rupees to Pound is " + str(ac)+ " £")
+                         print("---------------------------------")
+                     elif  y == 'SGD':
+                         ac =z/57.45
+                         print("The conversion of " + str(z) + " rupees to SGD is " + str(ac)+ " S$")
+                         print("---------------------------------")
+             
+                     else:
+                         input("Wrong type of Currency Type entered")
+                         break
+                         
+         </code>
+                    </deckgo-highlight-code>
+                </div>
+            </div>
+            <!-- </div> -->
+            </div>
+            <div class="main3">
+                <div class="Project2_Heading">
+                    Calculation of Percentage and Percentile</div>
+                <div class="Project2_Content">
+                    <br>
+                    This Project is made in Python, it functions in calculating percentage and percentile adn average
+                    with the marks ,code is:
+                </div>
+                <div>
+                    <script type="module"
+                        src="https://unpkg.com/@deckdeckgo/highlight-code@latest/dist/deckdeckgo-highlight-code/deckdeckgo-highlight-code.esm.js"></script>
+                    <deckgo-highlight-code language="python" class="script2">
+                        <code slot="code">
+             '''print('Hello, This Program is made by Prathamesh Laddhad, In this Program you can calculate the percentage by  just entering the marks you  got and the out of marks ')
+             print("------------------------------")
+             while True:
+                 pp = input("Do u want to calculate the percentage(pe) or percentile(pl): ")
+                 if pp == 'pl':
+                     ple = float(input("what is the total no of students in your class(not total marks): "))
+                     ply = float(input("what is your rank(rank should be entered not the marks): "))
+                     s = str(((ple - ply)/ple)* 100)
+                     print(s + " is the perentile of " + str(ply) + " from " + str(ple))
+                    
+                     print("------------------------------")
+             
+                 elif pp =='pe' :   
+                         sw = input("Do u want to calculate average marks(y/n): ")
+                         if sw == 'n':
+                             x = float(input("Pls Give the marks you got: "))
+                             y = int(input( str(x)+ " Out of: "))
+                             if y < x :
+                                 input("Wrong Value entered")
+                                 break 
+                             else:
+                                 z = print(str(float((x * 100)/y)) + "% you got from " + str(x) + " out of " +str(y))
+                                 print("------------------------------")
+                         elif sw == 'y':
+                                 a = 0
+                                 we = int(input("Pls enter the total no of subjects you have: "))
+                                 for i in range (we):
+                                     werty = float(input("Pls enter the marks in each subject you got: "))
+                                     a += werty
+                                 q = float(input("what is the total marks(out of): "))
+                                 aw = str(float((float(a)/float(we))))
+                                 sw = print("The Average marks is "+ aw + ".Percentage you got is " +str((float(aw)/(float(q))*100))+ " % ")
+                                 print("------------------------------")
+                 else:
+                         input("INALID CHOICE")    
+                         break     
+         </code>
+                    </deckgo-highlight-code>
+                </div>
+            </div>
+            <!-- </div> -->
+            </div>
+            <div class="main4">
+                <div class="Project3_Heading">
+                    Table of any number Till any number</div>
+                <div class="Project3_Content">
+                    <br>
+                    This Project is made in Python, it functions you can get the table of any no from like y x 1 = y , y
+                    x 2(this no can also be changed ) = 2*y till any number,y x = ylike this , code is:
+                </div>
+                <div>
+                    <script type="module"
+                        src="https://unpkg.com/@deckdeckgo/highlight-code@latest/dist/deckdeckgo-highlight-code/deckdeckgo-highlight-code.esm.js"></script>
+                    <deckgo-highlight-code language="python" class="script3">
+                        <code slot="code">
+                            '''THis project is made by Prathamesh Laddhad and in this you can get the table of any no from like y x 1 = y ,y x 2(this no can also be changed ) = 2*y like this .'''
+
+                            inpt = int(input("Which no table do u want: "))
+                            for x in range(inpt,inpt+1):
+                                y  = int(input("Till how much no you want "+ str(x)+ " be multiplied : "))
+                                for y in range(1,y+1):
+                                    print(str(x) + " x " +str( y) + " = " + str(x*y))   
+                        </code>
+                    </deckgo-highlight-code>
+                </div>
+            </div>
+            <div class="main5">
+                <div class="Project4_Heading">
+                    Quiz</div>
+                <div class="Project4_Content">
+                    <br>
+                    This Project is made in Python, it is like a small quiz with 5 questions , code is:
+                </div>
+                <div>
+                    <script type="module"
+                        src="https://unpkg.com/@deckdeckgo/highlight-code@latest/dist/deckdeckgo-highlight-code/deckdeckgo-highlight-code.esm.js"></script>
+                    <deckgo-highlight-code language="python" class="script4">
+                        <code slot="code">
+                            youwin=0
+
+                            print("Hello Welcome to the quiz")
+                            print("--------------------------")
+                            Name =input("What is Your Name: ")
+                            print("--------------------------")
+                            print("Welcome To the quiz "+Name)
+                            print("--------------------------")
+                            age = input("What is your age?: ")
+                            print("--------------------------")
+                            z = str(int(age) + 1)
+                            print("After One Year you will be "+z+" years old")
+                            print("--------------------------")
+                            BD= input("When is your birthday Day: ")
+                            print("--------------------------")
+                            if BD == '14 April 'or'14-4-2009'or'14-4'or'14april'or'14 april':
+                                print("Wow On the Ambedkar Jayanti")
+                                print("--------------------------")
+                            else:
+                                print("What a Good Day")
+                            if age >='18':
+                                c = input("In which Company Do u work?: ")
+                                print("--------------------------")
+                                print(c + " is a Nice Company")
+                                print("--------------------------")
+                                post = input("What is Your Post in " + c + " : ")
+                                print("--------------------------")
+                                print(post+" is a Nice Post in "+ c)
+                                print("--------------------------")
+                            
+                            
+                            else:
+                               SN = input("What is Your School Name "+Name+": ")
+                               print("--------------------------")
+                               print("Nice School "+ Name + " What a Lucky Child You Are.")
+                               print("--------------------------")
+                               std = input("In Which Standard Are your Studing?: ")
+                               print("--------------------------")
+                               print("Nice")
+                               print("--------------------------")
+                            
+                            ("Lets Start the Quiz")
+                            print("--------------------------")
+                            
+                                
+                            print("1.First Question\n Who is The President of United Kingdom?\nOptions:\n1.Joe Biden\n2.Borris Johnson\n3.Donald Trump")
+                            ans1 = input()
+                            if ans1 =='2':
+                                print("Right Answer")
+                                youwin = str(int(youwin) + 5)
+                                print("Your score is "+youwin+" Points")
+                            
+                                
+                            
+                            else:
+                                print("Wrong Answer")
+                                youwin= str(int(youwin) - 5)
+                                print("Your score is "+youwin+" Points")
+                            
+                              
+                            
+                            print("2.Second Question\n What is 2√2 ?\nOptions:\n1.√8\n2.√4\n3.√2")
+                            ans2 = input()
+                            if ans2 =='1':
+                                print("Right Answer")
+                                youwin = str(int(youwin) + 5)
+                                print("Your score is "+youwin+" Points")
+                            
+                               
+                            else:
+                                print("Wrong Answer")
+                                youwin= str(int(youwin) - 5)
+                                print("Your score is "+youwin+" Points")
+                            
+                               
+                            
+                            print("3.Third Question\n What is the full form of ISRO?\nOptions:\n1.Indian Space Research Organization\n2.Indian Space Remote Organization\n3.Indian Space Retro Organization")
+                            ans3 = input()
+                            if ans3 =='1':
+                                print("Right Answer")
+                                youwin = str(int(youwin) + 5)
+                                print("Your score is "+youwin+" Points")
+                            
+                               
+                            
+                            else:
+                                print("Wrong Answer")
+                                youwin= str(int(youwin) - 5)
+                                print("Your score is "+youwin+" Points")
+                            
+                               
+                            print("4.Fourth Question\n What is the Area of a Square garden with a side 25 m without the Area of a Swing(Square Size)2m?\nOptions:\n1.621cm\n2.625cm \n3.529cm")
+                            ans4 = input()
+                            if ans4 =='1':
+                                print("Right Answer")
+                                youwin = str(int(youwin) + 5)
+                                print("Your score is "+youwin+" Points")
+                            
+                              
+                            
+                            else:
+                                print("Wrong Answer")
+                                youwin= str(int(youwin) - 5)
+                                print("Your score is "+youwin+" Points")
+                            
+                               
+                            print("5.Fifth Question\n Who made India Win the First Internation Cricket World Cup ?\nOptions:\n1.Sunil Gavaskar\n2.Sachin Tendulkar\n3.Kapil Dev")
+                            ans5 = input()
+                            if ans5 =='3':
+                                print("Right Answer")
+                                youwin = str(int(youwin) + 5)
+                                input("Your score is "+youwin+" Points")
+                                
+                            
+                            else:
+                                print("Wrong Answer")
+                                youwin= str(int(youwin) - 5)
+                                input("Your score is "+youwin+" Points")
+                                
+                            input("Your Total Score is "+youwin+" Points")
+                            
+                            
+                            
+                             
+                               
+                            
+                               
+                            
+                            
+                        </code>
+                    </deckgo-highlight-code>
+                </div>
+            </div>
+
+            </div>
+    </main>
+    <form action="https://formsubmit.co/el/gozaxu" method="POST">
+        <div class="contactform" id="Contact">
+            <H1 class="HEADINGFORM">Contact Form</H1>
+            <input class="Contactforminfo1" type="text" id="Name" placeholder="Name" required>
+            <input class="Contactforminfo2" type="text" id="Email" placeholder="Email/Phone" required>
+            <input class="Contactforminfo3" type="text" id="Loacation" placeholder="Location" required>
+            <input class="Contactforminfo4" type="text" id="Message" placeholder="How can I help You" required>
+            <button class="btn">Submit</button>
+
+    </form>
+
+    </div>
+    <div class="copy">
+        <div>Copyright &copy; 2023 Reserved </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Prathamesh Laddhad", "a Web Developer", "a Coder",],
+            typeSpeed: 50,
+            backSpeed: 15,
+            loop: true,
+        })
+    </script>
+  
+
+</body>
+
+</html>
